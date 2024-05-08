@@ -1,19 +1,12 @@
-# charts-for-environment
+1. **全球温度变化图**
+   - **图标数量**：1
+   - **图表类型**：折线图 单位：℃
+   - **说明**：展示过去数十年全球平均温度的变化趋势，可以清晰地看到全球变暖的情况。
+   - **数据来源**：NASA地球科学数据 (https://data.giss.nasa.gov/gistemp/)
+   
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2. **各国CO2排放量对比图**
+   - **图标数量**：2
+   - **图表类型**：堆叠柱状图、柱状图（排名：每年的前十人均碳排放国家） 单位：人/吨
+   - **说明**：对比不同国家在各个时间段的CO2排放量，通过颜色分层显示，直观地展示各国排放总量及其构成。
+   - **数据来源**：世界银行全球发展指标数据库 (https://data.worldbank.org/indicator/EN.ATM.CO2E.PC)

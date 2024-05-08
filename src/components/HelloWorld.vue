@@ -1,57 +1,110 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="hello" style="padding: 10px;">
+    <div id="chartstemp" style="height: 500px;width: 100%;"></div>
+    <div id="chartsAllCo2" style="height: 500px;width: 100%;"></div>
+    <div id="chartsNumCo2" style="height: 500px;width: 100%;"></div>
   </div>
 </template>
 
 <script>
+import * as echarts from 'echarts'
+
+import temperatureData from '../assets/datas/tempratrue.json'
+import co2AllData from '../assets/datas/allco2.json'
+
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
+  data(){
+    return{
+      tempData:[],
+      co2AllData:[],
+      co2NumData:[],
+    }
+  },
+  mounted(){
+    // console.log(temperatureData,co2AllData)
+    this.co2AllData=co2AllData
+    this.tempData = temperatureData.slice(1)
+    this.renderChartAllCo2()
+  },
+  methods:{
+    renderChartAllCo2(){
+      // console.log(co2AllData)
+      const dataS=Object.keys(this.co2AllData[0]).filter(key => key !== "Year")
+      // console.log(dataS)
+      let series=[]
+      dataS.forEach((item=>{
+        series.push(
+          {
+            name:item,
+            type:"bar",
+            stack:"1",
+            data:this.co2AllData.map(item2=>(item2[`${item}`])),
+          },)
+      }))
+      
+      const myChart = echarts.init(document.getElementById('chartsAllCo2'))
+      const option = {
+        legend: {
+          show:true,
+          type:'scroll',
+        },
+        tooltip:{
+          show:true,
+          formatter:function(params){
+            return `
+            <div>
+              <div>
+                <span>国家或地区：</span>
+                <span>${params.seriesName}</span>
+              </div>
+              <div>
+                <span>CO2排放量：</span>
+                <span>${(params.value).toFixed(2)}吨/人</span>
+              </div>
+            </div>
+            `
+          }
+        },
+        grid:{
+          left: 50,
+          right: 100,
+          top: 50,
+          bottom: 50
+        },
+        dataZoom: [
+          {
+            type: 'slider',
+            xAxisIndex: [0],
+            filterMode: 'filter'
+          },
+          {
+            type: 'slider',
+            yAxisIndex: [0],
+            filterMode: 'filter'
+          },
+          {
+            type: 'inside',
+            xAxisIndex: [0],  // 控制 X 轴缩放
+            filterMode: 'filter'
+          },
+        ],
+        yAxis: {
+          type: 'value'
+        },
+        xAxis: {
+          type: 'category',
+          data: this.co2AllData.map(item=>(item.Year))
+        },
+        series
+      }
+      myChart.setOption(option)
+      console.log(option)
+    }
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>

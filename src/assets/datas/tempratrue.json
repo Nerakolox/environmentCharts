@@ -1,0 +1,586 @@
+[
+  {
+    "year": "Year",
+    "annualMeanTemperature": "J-D"
+  },
+  {
+    "year": "1880",
+    "annualMeanTemperature": "-0.17"
+  },
+  {
+    "year": "1881",
+    "annualMeanTemperature": "-0.09"
+  },
+  {
+    "year": "1882",
+    "annualMeanTemperature": "-0.11"
+  },
+  {
+    "year": "1883",
+    "annualMeanTemperature": "-0.17"
+  },
+  {
+    "year": "1884",
+    "annualMeanTemperature": "-0.28"
+  },
+  {
+    "year": "1885",
+    "annualMeanTemperature": "-0.33"
+  },
+  {
+    "year": "1886",
+    "annualMeanTemperature": "-0.31"
+  },
+  {
+    "year": "1887",
+    "annualMeanTemperature": "-0.36"
+  },
+  {
+    "year": "1888",
+    "annualMeanTemperature": "-0.17"
+  },
+  {
+    "year": "1889",
+    "annualMeanTemperature": "-0.10"
+  },
+  {
+    "year": "1890",
+    "annualMeanTemperature": "-0.35"
+  },
+  {
+    "year": "1891",
+    "annualMeanTemperature": "-0.22"
+  },
+  {
+    "year": "1892",
+    "annualMeanTemperature": "-0.27"
+  },
+  {
+    "year": "1893",
+    "annualMeanTemperature": "-0.31"
+  },
+  {
+    "year": "1894",
+    "annualMeanTemperature": "-0.30"
+  },
+  {
+    "year": "1895",
+    "annualMeanTemperature": "-0.22"
+  },
+  {
+    "year": "1896",
+    "annualMeanTemperature": "-0.11"
+  },
+  {
+    "year": "1897",
+    "annualMeanTemperature": "-0.11"
+  },
+  {
+    "year": "1898",
+    "annualMeanTemperature": "-0.27"
+  },
+  {
+    "year": "1899",
+    "annualMeanTemperature": "-0.17"
+  },
+  {
+    "year": "1900",
+    "annualMeanTemperature": "-0.08"
+  },
+  {
+    "year": "1901",
+    "annualMeanTemperature": "-0.15"
+  },
+  {
+    "year": "1902",
+    "annualMeanTemperature": "-0.28"
+  },
+  {
+    "year": "1903",
+    "annualMeanTemperature": "-0.37"
+  },
+  {
+    "year": "1904",
+    "annualMeanTemperature": "-0.47"
+  },
+  {
+    "year": "1905",
+    "annualMeanTemperature": "-0.26"
+  },
+  {
+    "year": "1906",
+    "annualMeanTemperature": "-0.22"
+  },
+  {
+    "year": "1907",
+    "annualMeanTemperature": "-0.38"
+  },
+  {
+    "year": "1908",
+    "annualMeanTemperature": "-0.42"
+  },
+  {
+    "year": "1909",
+    "annualMeanTemperature": "-0.48"
+  },
+  {
+    "year": "1910",
+    "annualMeanTemperature": "-0.43"
+  },
+  {
+    "year": "1911",
+    "annualMeanTemperature": "-0.44"
+  },
+  {
+    "year": "1912",
+    "annualMeanTemperature": "-0.36"
+  },
+  {
+    "year": "1913",
+    "annualMeanTemperature": "-0.34"
+  },
+  {
+    "year": "1914",
+    "annualMeanTemperature": "-0.15"
+  },
+  {
+    "year": "1915",
+    "annualMeanTemperature": "-0.13"
+  },
+  {
+    "year": "1916",
+    "annualMeanTemperature": "-0.35"
+  },
+  {
+    "year": "1917",
+    "annualMeanTemperature": "-0.45"
+  },
+  {
+    "year": "1918",
+    "annualMeanTemperature": "-0.29"
+  },
+  {
+    "year": "1919",
+    "annualMeanTemperature": "-0.27"
+  },
+  {
+    "year": "1920",
+    "annualMeanTemperature": "-0.27"
+  },
+  {
+    "year": "1921",
+    "annualMeanTemperature": "-0.19"
+  },
+  {
+    "year": "1922",
+    "annualMeanTemperature": "-0.28"
+  },
+  {
+    "year": "1923",
+    "annualMeanTemperature": "-0.26"
+  },
+  {
+    "year": "1924",
+    "annualMeanTemperature": "-0.27"
+  },
+  {
+    "year": "1925",
+    "annualMeanTemperature": "-0.22"
+  },
+  {
+    "year": "1926",
+    "annualMeanTemperature": "-0.11"
+  },
+  {
+    "year": "1927",
+    "annualMeanTemperature": "-0.22"
+  },
+  {
+    "year": "1928",
+    "annualMeanTemperature": "-0.20"
+  },
+  {
+    "year": "1929",
+    "annualMeanTemperature": "-0.36"
+  },
+  {
+    "year": "1930",
+    "annualMeanTemperature": "-0.16"
+  },
+  {
+    "year": "1931",
+    "annualMeanTemperature": "-0.09"
+  },
+  {
+    "year": "1932",
+    "annualMeanTemperature": "-0.16"
+  },
+  {
+    "year": "1933",
+    "annualMeanTemperature": "-0.29"
+  },
+  {
+    "year": "1934",
+    "annualMeanTemperature": "-0.13"
+  },
+  {
+    "year": "1935",
+    "annualMeanTemperature": "-0.20"
+  },
+  {
+    "year": "1936",
+    "annualMeanTemperature": "-0.15"
+  },
+  {
+    "year": "1937",
+    "annualMeanTemperature": "-0.03"
+  },
+  {
+    "year": "1938",
+    "annualMeanTemperature": "0.00"
+  },
+  {
+    "year": "1939",
+    "annualMeanTemperature": "-0.02"
+  },
+  {
+    "year": "1940",
+    "annualMeanTemperature": "0.12"
+  },
+  {
+    "year": "1941",
+    "annualMeanTemperature": "0.18"
+  },
+  {
+    "year": "1942",
+    "annualMeanTemperature": "0.06"
+  },
+  {
+    "year": "1943",
+    "annualMeanTemperature": "0.09"
+  },
+  {
+    "year": "1944",
+    "annualMeanTemperature": "0.20"
+  },
+  {
+    "year": "1945",
+    "annualMeanTemperature": "0.09"
+  },
+  {
+    "year": "1946",
+    "annualMeanTemperature": "-0.07"
+  },
+  {
+    "year": "1947",
+    "annualMeanTemperature": "-0.03"
+  },
+  {
+    "year": "1948",
+    "annualMeanTemperature": "-0.11"
+  },
+  {
+    "year": "1949",
+    "annualMeanTemperature": "-0.11"
+  },
+  {
+    "year": "1950",
+    "annualMeanTemperature": "-0.17"
+  },
+  {
+    "year": "1951",
+    "annualMeanTemperature": "-0.07"
+  },
+  {
+    "year": "1952",
+    "annualMeanTemperature": "0.01"
+  },
+  {
+    "year": "1953",
+    "annualMeanTemperature": "0.08"
+  },
+  {
+    "year": "1954",
+    "annualMeanTemperature": "-0.13"
+  },
+  {
+    "year": "1955",
+    "annualMeanTemperature": "-0.14"
+  },
+  {
+    "year": "1956",
+    "annualMeanTemperature": "-0.19"
+  },
+  {
+    "year": "1957",
+    "annualMeanTemperature": "0.05"
+  },
+  {
+    "year": "1958",
+    "annualMeanTemperature": "0.06"
+  },
+  {
+    "year": "1959",
+    "annualMeanTemperature": "0.03"
+  },
+  {
+    "year": "1960",
+    "annualMeanTemperature": "-0.03"
+  },
+  {
+    "year": "1961",
+    "annualMeanTemperature": "0.06"
+  },
+  {
+    "year": "1962",
+    "annualMeanTemperature": "0.03"
+  },
+  {
+    "year": "1963",
+    "annualMeanTemperature": "0.05"
+  },
+  {
+    "year": "1964",
+    "annualMeanTemperature": "-0.20"
+  },
+  {
+    "year": "1965",
+    "annualMeanTemperature": "-0.11"
+  },
+  {
+    "year": "1966",
+    "annualMeanTemperature": "-0.06"
+  },
+  {
+    "year": "1967",
+    "annualMeanTemperature": "-0.02"
+  },
+  {
+    "year": "1968",
+    "annualMeanTemperature": "-0.08"
+  },
+  {
+    "year": "1969",
+    "annualMeanTemperature": "0.05"
+  },
+  {
+    "year": "1970",
+    "annualMeanTemperature": "0.03"
+  },
+  {
+    "year": "1971",
+    "annualMeanTemperature": "-0.08"
+  },
+  {
+    "year": "1972",
+    "annualMeanTemperature": "0.01"
+  },
+  {
+    "year": "1973",
+    "annualMeanTemperature": "0.16"
+  },
+  {
+    "year": "1974",
+    "annualMeanTemperature": "-0.07"
+  },
+  {
+    "year": "1975",
+    "annualMeanTemperature": "-0.01"
+  },
+  {
+    "year": "1976",
+    "annualMeanTemperature": "-0.10"
+  },
+  {
+    "year": "1977",
+    "annualMeanTemperature": "0.18"
+  },
+  {
+    "year": "1978",
+    "annualMeanTemperature": "0.07"
+  },
+  {
+    "year": "1979",
+    "annualMeanTemperature": "0.16"
+  },
+  {
+    "year": "1980",
+    "annualMeanTemperature": "0.26"
+  },
+  {
+    "year": "1981",
+    "annualMeanTemperature": "0.32"
+  },
+  {
+    "year": "1982",
+    "annualMeanTemperature": "0.14"
+  },
+  {
+    "year": "1983",
+    "annualMeanTemperature": "0.31"
+  },
+  {
+    "year": "1984",
+    "annualMeanTemperature": "0.16"
+  },
+  {
+    "year": "1985",
+    "annualMeanTemperature": "0.12"
+  },
+  {
+    "year": "1986",
+    "annualMeanTemperature": "0.18"
+  },
+  {
+    "year": "1987",
+    "annualMeanTemperature": "0.32"
+  },
+  {
+    "year": "1988",
+    "annualMeanTemperature": "0.39"
+  },
+  {
+    "year": "1989",
+    "annualMeanTemperature": "0.27"
+  },
+  {
+    "year": "1990",
+    "annualMeanTemperature": "0.45"
+  },
+  {
+    "year": "1991",
+    "annualMeanTemperature": "0.40"
+  },
+  {
+    "year": "1992",
+    "annualMeanTemperature": "0.22"
+  },
+  {
+    "year": "1993",
+    "annualMeanTemperature": "0.23"
+  },
+  {
+    "year": "1994",
+    "annualMeanTemperature": "0.31"
+  },
+  {
+    "year": "1995",
+    "annualMeanTemperature": "0.44"
+  },
+  {
+    "year": "1996",
+    "annualMeanTemperature": "0.33"
+  },
+  {
+    "year": "1997",
+    "annualMeanTemperature": "0.46"
+  },
+  {
+    "year": "1998",
+    "annualMeanTemperature": "0.61"
+  },
+  {
+    "year": "1999",
+    "annualMeanTemperature": "0.38"
+  },
+  {
+    "year": "2000",
+    "annualMeanTemperature": "0.39"
+  },
+  {
+    "year": "2001",
+    "annualMeanTemperature": "0.53"
+  },
+  {
+    "year": "2002",
+    "annualMeanTemperature": "0.63"
+  },
+  {
+    "year": "2003",
+    "annualMeanTemperature": "0.62"
+  },
+  {
+    "year": "2004",
+    "annualMeanTemperature": "0.53"
+  },
+  {
+    "year": "2005",
+    "annualMeanTemperature": "0.68"
+  },
+  {
+    "year": "2006",
+    "annualMeanTemperature": "0.64"
+  },
+  {
+    "year": "2007",
+    "annualMeanTemperature": "0.66"
+  },
+  {
+    "year": "2008",
+    "annualMeanTemperature": "0.54"
+  },
+  {
+    "year": "2009",
+    "annualMeanTemperature": "0.65"
+  },
+  {
+    "year": "2010",
+    "annualMeanTemperature": "0.72"
+  },
+  {
+    "year": "2011",
+    "annualMeanTemperature": "0.61"
+  },
+  {
+    "year": "2012",
+    "annualMeanTemperature": "0.65"
+  },
+  {
+    "year": "2013",
+    "annualMeanTemperature": "0.68"
+  },
+  {
+    "year": "2014",
+    "annualMeanTemperature": "0.75"
+  },
+  {
+    "year": "2015",
+    "annualMeanTemperature": "0.90"
+  },
+  {
+    "year": "2016",
+    "annualMeanTemperature": "10.02"
+  },
+  {
+    "year": "2017",
+    "annualMeanTemperature": "0.92"
+  },
+  {
+    "year": "2018",
+    "annualMeanTemperature": "0.85"
+  },
+  {
+    "year": "2019",
+    "annualMeanTemperature": "0.98"
+  },
+  {
+    "year": "2020",
+    "annualMeanTemperature": "10.01"
+  },
+  {
+    "year": "2021",
+    "annualMeanTemperature": "0.85"
+  },
+  {
+    "year": "2022",
+    "annualMeanTemperature": "0.89"
+  },
+  {
+    "year": "2023",
+    "annualMeanTemperature": "10.17"
+  },
+  {
+    "year": "2024",
+    "annualMeanTemperature": "***"
+  }
+]
