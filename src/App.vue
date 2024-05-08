@@ -16,5 +16,8 @@ export default {
 </script>
 
 <style lang="scss">
-
+#app{
+  // background-image: url('./assets/bg.png');
+  // background-size: contain;
+}
 </style>
